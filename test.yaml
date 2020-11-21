@@ -3,5 +3,5 @@
   hosts: all
   tasks:
           - name: writing to a file in /home/jeeson/output1.txt
-            shell: echo Helloo jenkins and ansible in single world > /home/jeeson/output1.txt
+            shell: echo Helloo jenkins and ansible in single world update > /home/jeeson/output1.txt
 ...
