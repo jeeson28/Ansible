@@ -2,6 +2,6 @@
 - name: testing play book code
   hosts: all
   tasks:
-          - name: writing to a file in /home/jeeson/output1.txt
-            shell: echo Helloo jenkins and ansible in single world update > /home/jeeson/output1.txt
+          - name: writing to a file in homedirectory output.txt
+            shell: echo Helloo jenkins and ansible in single world update > ~/output1.txt
 ...
